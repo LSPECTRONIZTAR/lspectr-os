@@ -1,0 +1,131 @@
+/* Custom Fonts */
+
+/* Link to your custom font files */
+@font-face {
+    font-family: 'DroidSansRegular';
+    src: url('fonts/DroidSans-Regular.woff2') format('woff2'),
+         url('fonts/DroidSans-Regular.woff') format('woff'),
+         url('fonts/DroidSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('fonts/DroidSans-Bold.woff2') format('woff2'),
+         url('fonts/DroidSans-Bold.woff') format('woff'),
+         url('fonts/DroidSans-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Body Styles */
+
+/* Apply custom font to body */
+body {
+    font-family: 'DroidSansRegular', Arial, sans-serif;
+    color: #ffffff; /* Example color */
+    background-color: #111111; /* Example background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Styles */
+
+/* Apply separate font to headings */
+h1, h2, h3 {
+    font-family: 'DroidSansBold', Arial, sans-serif;
+    color: #007bff; /* Example color for headings */
+    margin: 10px 0; /* Example margin */
+}
+
+h1 {
+    font-size: 32px; /* Example font size for h1 */
+}
+
+h2 {
+    font-size: 24px; /* Example font size for h2 */
+}
+
+h3 {
+    font-size: 20px; /* Example font size for h3 */
+}
+
+/* Other Styles */
+
+/* Example styles for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Example styles for paragraphs */
+p {
+    line-height: 1.5;
+}
+
+/* Style for alert blocks */
+blockquote {
+    padding: 10px;
+    border-left: 5px solid;
+    margin: 15px 0;
+}
+
+/* Style for info alert */
+blockquote.info {
+    border-color: #007bff; /* Example color for info alerts */
+    background-color: #f0f9ff; /* Example background color for info alerts */
+}
+
+/* Style for success alert */
+blockquote.success {
+    border-color: #28a745; /* Example color for success alerts */
+    background-color: #e6ffe6; /* Example background color for success alerts */
+}
+
+/* Style for warning alert */
+blockquote.warning {
+    border-color: #ffc107; /* Example color for warning alerts */
+    background-color: #fff7e6; /* Example background color for warning alerts */
+}
+
+/* Style for danger alert */
+blockquote.danger {
+    border-color: #dc3545; /* Example color for danger alerts */
+    background-color: #ffe6e6; /* Example background color for danger alerts */
+}
+
+/* Icon styles for alerts */
+blockquote::before {
+    content: '';
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+/* Icon styles for info alert */
+blockquote.info::before {
+    background-image: url('info-icon.png'); /* Replace with your info icon */
+}
+
+/* Icon styles for success alert */
+blockquote.success::before {
+    background-image: url('success-icon.png'); /* Replace with your success icon */
+}
+
+/* Icon styles for warning alert */
+blockquote.warning::before {
+    background-image: url('warning-icon.png'); /* Replace with your warning icon */
+}
+
+/* Icon styles for danger alert */
+blockquote.danger::before {
+    background-image: url('danger-icon.png'); /* Replace with your danger icon */
+}
