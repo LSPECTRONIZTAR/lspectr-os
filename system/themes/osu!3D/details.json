@@ -1,0 +1,30 @@
+{
+  "description": "The world's bestest free-to-win rhythm game but... deeper.",
+  "thumbnail": "thumbnail.webp",
+  "variants": [
+    {
+      "name": "Default",
+      "background": "thumbnail.webp",
+      "music": "undefined",
+      "menuStyle": {
+        "color": "Grey"
+      },
+      "menuIcons": {
+        "Internet Browser": "undefined",
+        "Settings": "undefined"
+      }
+    },
+    {
+      "name": "Cheating F*ck Meme",
+      "background": "cheating fuck.png",
+      "music": "undefined",
+      "menuStyle": {
+        "color": "Blue"
+      },
+      "menuIcons": {
+        "Internet Browser": "undefined",
+        "Settings": "undefined"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+    "description": "Template for `details.json` files for LSPECTR-OS themes",
+    "thumbnail": "thumbnail.png",
+    "variants": [
+        {
+            "name": "Variant 1",
+            "description": "Themes can have multiple variants or just a single theme.",
+            "background": "image.jpg",
+            "music": "music.mp3",
+            "menuStyle": {
+                "color": "Default"
+            },
+            "menuIcons": {
+                "Internet Browser": "icons/internetBrowser.png",
+                "Settings": "icons/settings.png"
+            }
+        },
+        {
+            "name": "Variant 2",
+            "description": "Images can be .jpg, .png, or .svg.",
+            "background": "image.png",
+            "music": "music.wav",
+            "menuStyle": {
+                "color": "Default"
+            },
+            "menuIcons": {
+                "Internet Browser": "icons/internetBrowser.png",
+                "Settings": "icons/settings.png"
+            }
+        },
+        {
+            "name": "Variant 3",
+            "description": "Images can be .mp3, .wav, or .ogg.",
+            "background": "image.svg",
+            "music": "music.ogg",
+            "menuStyle": {
+                "color": "Default"
+            },
+            "menuIcons": {
+                "Internet Browser": "icons/internetBrowser.png",
+                "Settings": "icons/settings.png"
+            }
+        }
+    ]
+}
