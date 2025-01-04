@@ -6,7 +6,5 @@ while not answer in redeemCodes:
   attempts.append(answer)
   if answer in redeemCodes:
     print("Congratulations! You have received content from the code \"" + answer + "\".")
-  else
-    print("Redeem code not recognized. Please try again.\nYou have already entered the following redeem codes:)
-    for i in attempts
-      print(i)
+  else:
+    print("Redeem code not recognized. Please try again.\nYou have already entered the following redeem codes: " + str(attempts))
