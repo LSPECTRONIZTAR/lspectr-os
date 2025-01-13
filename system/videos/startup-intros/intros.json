@@ -1,6 +1,7 @@
 [
     {
         "name": "Default",
+        "description": "Default intro for LSPECTR-OS",
         "filename": "default.mp4",
         "thumbnail": "default.png",
         "downloadOnStart": true,
@@ -8,6 +9,7 @@
     },
     {
         "name": "The Hills",
+        "description": "Every initial setup is a virtual adventure!",
         "filename": "the hills.mp4",
         "thumbnail": "the hills.png",
         "downloadOnStart": true,
@@ -15,9 +17,10 @@
     },
     {
         "name": "Whirlpool",
+        "description": "Beta intro for LSPECTR-OS",
         "filename": "whirlpool.mp4",
         "thumbnail": "default.png",
-        "downloadOnStart": true,
+        "downloadOnStart": false,
         "lastUpdate": "2025-01-12 19:45:41"
     }
 ]
